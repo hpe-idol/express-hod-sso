@@ -1,0 +1,39 @@
+{
+  "name": "express-hod-sso",
+  "version": "0.0.1",
+  "description": "Middleware for securing an express application using HPE Haven OnDemand SSO",
+  "repository": "hpe-idol/express-hod-sso",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require should",
+    "test:watch": "mocha --require should -w",
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- --require should"
+  },
+  "dependencies": {
+    "async": "~1.4.2",
+    "debug": "~2.2.0",
+    "express": "~4.12.4",
+    "form-urlencoded": "~0.1.4",
+    "hod-request-lib": "hpe-idol/node-hod-request-lib"
+  },
+  "devDependencies": {
+    "istanbul": "~0.4.1",
+    "mocha": "~2.3.3",
+    "proxyquire": "~1.7.3",
+    "should": "~7.1.1",
+    "sinon": "~1.17.2"
+  },
+  "keywords": [
+    "hpe",
+    "haven",
+    "havenondemand",
+    "ondemand",
+    "middleware",
+    "sso",
+    "express",
+    "authentication",
+    "hod"
+  ],
+  "author": "Jonathan Soul <jonathan.soul@hpe.com>",
+  "license": "MIT"
+}
