@@ -2,7 +2,7 @@
 
 [Express](http://expressjs.com/) (4.x) middleware for securing routes using [HPE Haven OnDemand](http://www.havenondemand.com) SSO.
 
-Designed for use with the node-hod-request-lib, [hod-sso-js](https://github.com/hpe-idol/hod-sso-js) and a compatible token repository.
+Designed for use with the [node-hod-request-lib](https://github.com/hpe-idol/node-hod-request-lib), [hod-sso-js](https://github.com/hpe-idol/hod-sso-js) and a compatible token repository.
 
 ## Usage
 
