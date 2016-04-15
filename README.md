@@ -4,6 +4,11 @@
 
 Designed for use with the [node-hod-request-lib](https://github.com/hpe-idol/node-hod-request-lib), [hod-sso-js](https://github.com/hpe-idol/hod-sso-js) and a compatible token repository.
 
+The currently supported token repository implementations are limited to:
+
+* (In memory) simple token repository included as part of the [node-hod-request-lib](https://github.com/hpe-idol/node-hod-request-lib)
+* [Redis token repository](https://github.com/hpe-idol/node-redis-hod-token-repository)
+
 ## Usage
 
 express-hod-sso exposes an Express Router for use as middleware/routing:
