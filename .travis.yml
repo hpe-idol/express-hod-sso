@@ -1,9 +1,18 @@
 language: node_js
 node_js:
-  - "5"
-  - "5.1"
-  - "4"
-  - "4.2"
-  - "4.1"
-  - "4.0"
-  - "0.12"
+- '5'
+- '5.1'
+- '4'
+- '4.2'
+- '4.1'
+- '4.0'
+- '0.12'
+deploy:
+  provider: npm
+  email: hpe-idol-oss@groups.ext.hpe.com
+  api_key:
+    secure: Zd4J7l72/D4EulQ00CQ8xo9cvcIFceida68N9SG1FprLsAuUR4ByVT1PqX+sUQCFVBWRxQed1H8m68m5qNm3DnETRdX8PcQ6Bcfdnkl+SbGMU+ySyLvnx2yJUDerBBBK9bngvrAKTCz3bL+sC5xgpzfR2ejwEztxeuqNxB2zOeamjaNgDajfqPP/Gul+tRAtU39HfM9opKKfeO3amH3oVkLyQan4D4Oe/cUdcjYX+W8vlzFghRpZJVHARKbfFrUxO9eABnjFovQZGV5WKAan8Z35KcoStUw5cA3yKm/UZ+I8Ex11PnmxeH4vGFNbpaYdcQmmMI6S/UR60GVC3jeZrC7GUbFLt7HdNQ3VxmRmcPzf52IWdnFsCOXFPZeiz1m6CYSKhMqzdfrciwxe6c+qHu46rUzjo0JH7JbhqdIMclKEo65zhh8REDwAjh0Jzi3FRcx23d3EZbtsE9ykXW4dpy6TeU5qztRqM5y/9ON60P6aUQ1HdH6SUfM/+Te0zms0uXbJ52xUA79I0OXk1/gYaXeyOLcY+ZwQn9YhUICeBCOFsoECzzoyARoHL7uXZ16yRiucG4XXJu+rFTlr1tFEFsftbNKZZ8Wk2zrwb7KQy+FuJkQxpud3UUCXp0pd4x3ZgPouhbarFZmwukH7oZl7a1WnK6Tx3IQgqofgfKRrwiw=
+  on:
+    branch: master
+    tags: true
+    repo: hpe-idol/express-hod-sso
