@@ -1,6 +1,6 @@
 {
   "name": "express-hod-sso",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Middleware for securing an express application using HPE Haven OnDemand SSO",
   "repository": "hpe-idol/express-hod-sso",
   "main": "index.js",
