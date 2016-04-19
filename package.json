@@ -14,7 +14,7 @@
     "debug": "~2.2.0",
     "express": "~4.12.4",
     "form-urlencoded": "~0.1.4",
-    "hod-request-lib": "hpe-idol/node-hod-request-lib"
+    "hod-request-lib": "~0.0.2"
   },
   "devDependencies": {
     "istanbul": "~0.4.1",
